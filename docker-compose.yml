@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+  pg:
+    image: postgres
+    environment:
+      POSTGRES_USER: rumbl
+      POSTGRES_PASSWORD: elixir_rocks
+      POSTGRES_DB: rumbl_data
+    ports:
+      - "5434:5432"
+    # volumes:
+    # - ./server/files/schema.sql:/docker-entrypoint-initdb.d/1-schema.sql
+    # - ./db/data.sql:/docker-entrypoint-initdb.d/1-data.sql
