@@ -63,6 +63,6 @@ config :rumbl, Rumbl.Repo,
   username: "rumbl",
   password: "elixir_rocks",
   database: "rumbl_dev",
-  hostname: "localhost",,
+  hostname: "localhost",
   port: 5434,
   pool_size: 10
