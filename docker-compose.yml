@@ -6,7 +6,7 @@ services:
     environment:
       POSTGRES_USER: rumbl
       POSTGRES_PASSWORD: elixir_rocks
-      POSTGRES_DB: rumbl_data
+      POSTGRES_DB: rumbl_dev
     ports:
       - "5434:5432"
     # volumes:
