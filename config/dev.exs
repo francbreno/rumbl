@@ -60,6 +60,7 @@ config :phoenix, :plug_init_mode, :runtime
 
 # Configure your database
 config :rumbl, Rumbl.Repo,
+  adapter: Ecto.Adapters.Postgres,
   username: "rumbl",
   password: "elixir_rocks",
   database: "rumbl_dev",
